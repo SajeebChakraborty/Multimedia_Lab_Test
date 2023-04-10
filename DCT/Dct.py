@@ -1,5 +1,6 @@
 import numpy as np
 from PIL import Image
+from scipy.fftpack import dct
 
 # Load the image and convert to grayscale
 image = Image.open('image.jpg').convert('L')
